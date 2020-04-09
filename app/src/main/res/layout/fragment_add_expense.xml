@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bgapps">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Add Expense"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:layout_marginTop="130sp"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250sp"
+            android:text="Enter Expense Amount"
+            android:layout_marginLeft="20sp"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="270sp"
+            android:hint="Enter Your Amount Here"
+            android:layout_marginLeft="20sp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="370sp"
+            android:layout_marginLeft="20sp"
+            android:textSize="20sp"
+            android:text="Category:" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400sp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="550sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="Add"
+            android:textSize="25sp"/>
+
+
+    </RelativeLayout>
+
+</layout>
